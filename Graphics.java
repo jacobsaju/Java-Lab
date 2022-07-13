@@ -1,11 +1,11 @@
+
 package graphics;
-
-
 import java.util.Scanner;
-public class Graphics {
 
-    
-    public static void main(String[] args) {
+public class Graphics 
+{
+
+    public static void main(String[] args)  {
     
        double l,b,b1,h,r,a;
        Scanner sc=new Scanner(System.in);
@@ -20,7 +20,6 @@ public class Graphics {
        System.out.println("Enter the the side square");
        a=sc.nextDouble();
        
-       System.out.println();
        System.out.println("Enter the the radius of circle");
        r=sc.nextDouble();
        
@@ -39,45 +38,8 @@ public class Graphics {
        
        
     }
-
-    private static class Rectangle {
-
-        public Rectangle() {
-        }
-
-        private void area(double l, double b) {
-            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-        }
-    }
-
-    private static class Triangle {
-
-        public Triangle() {
-        }
-
-        private void area(double b, double h) {
-            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-        }
-    }
-
-    private static class Square {
-
-        public Square() {
-        }
-
-        private void area(double a) {
-            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-        }
-    }
-
-    private static class Circle {
-
-        public Circle() {
-        }
-
-        private void area(double r) {
-            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-        }
-    }
     
 }
+    
+    
+

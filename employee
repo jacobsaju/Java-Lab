@@ -1,0 +1,28 @@
+package employee;
+
+public class Employee
+{
+    String name;
+    int id,salary;
+    Employee(String a,int b,int c)
+    {
+        name=a;
+        id=b;
+        salary=c;    
+    }
+    public void salary()
+    {
+        int sal;
+        sal=salary*(20/100)+salary;
+        System.out.println("total salary: "+sal);
+    }
+    public static void main(String[] arg)
+    {
+        Employee S1 = new Employee("AB",100,1000);
+        S1.salary();
+        Employee S2 = new Employee("CD",200,2000);
+        S2.salary();
+    }
+    
+}
+

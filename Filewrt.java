@@ -19,7 +19,7 @@ public class Filewrt {
             ex.printStackTrace();
         }
          
-         
+   
          try{
             File dataFile = new File("DATA.txt");
             Scanner dataRead = new Scanner(dataFile);
@@ -35,5 +35,3 @@ public class Filewrt {
     }
     
 }
-
-
